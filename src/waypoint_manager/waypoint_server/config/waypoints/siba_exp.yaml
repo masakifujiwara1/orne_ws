@@ -1,0 +1,473 @@
+waypoint_server:
+  scale: 1
+  euler_angles:
+    y: 0
+    z: 0
+    x: 0
+  position:
+    x: 0
+    z: 0
+    y: 0
+  waypoints:
+    - id: registed_0_1636883300543949145
+      position:
+        x: -107.7618
+        y: -74.46141
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+    - id: registed_0_1636883253497699557
+      position:
+        x: -155.7822
+        y: -69.78947
+        z: 3.814697e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+    - id: registed_14_1636797699156759392
+      position:
+        x: -18.5222
+        y: -74.84837
+        z: -0.004570007
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_3_1636797444563571520
+      position:
+        x: -118.9593
+        y: -123.0341
+        z: 1.907349e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_319321000000
+      position:
+        x: -48.67891
+        y: -131.1526
+        z: 7.629395e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636707389266932243
+      position:
+        x: -161.1533
+        y: -76.06778
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636707315704113153
+      position:
+        x: -147.6537
+        y: -47.53899
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_4_337320000000
+      position:
+        x: -82.04972
+        y: -169.7078
+        z: 7.629395e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_3_1636792104205791244
+      position:
+        x: -75.13132
+        y: 53.69025
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636791894807427867
+      position:
+        x: -96.89558
+        y: -175.327
+        z: -0.01129913
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - position:
+        x: 16.66567
+        y: -12.36478
+        z: -1.907349e-06
+      id: registed_15_1636797712628484724
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_1636791888103651609
+      position:
+        x: -87.07078
+        y: -177.2706
+        z: -0.01535034
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_2_333707000000
+      position:
+        x: -64.39271
+        y: -149.8117
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_272526000000
+      position:
+        x: -53.22327
+        y: -124.2671
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636707330583788642
+      position:
+        x: -161.1598
+        y: -67.01075
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_16_1636797739540636324
+      position:
+        x: -27.54621
+        y: 18.70756
+        z: 0
+      euler_angles:
+        x: 8.781254e-08
+        y: 1.950668e-07
+        z: 2.399264
+      properties:
+        - key: stop
+          value: true
+    - id: registed_0_275765000000
+      position:
+        x: -88.68456
+        y: -99.58195
+        z: -7.629395e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_3_335720000000
+      position:
+        x: -73.07915
+        y: -162.8907
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_258904000000
+      position:
+        x: -118.9675
+        y: -122.3462
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_244317000000
+      position:
+        x: -134.2843
+        y: -113.3206
+        z: 3.814697e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_331599000000
+      position:
+        x: -60.08606
+        y: -149.3992
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_5_1636797472614957941
+      position:
+        x: -96.01979
+        y: -106.3418
+        z: -0.02542686
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636707418452168728
+      position:
+        x: -142.353
+        y: -116.4915
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636707397663559232
+      position:
+        x: -161.0898
+        y: -82.49425
+        z: 1.525879e-05
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_2_1636797360763480388
+      position:
+        x: -122.5596
+        y: -131.481
+        z: 1.907349e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - position:
+        x: -97.63087
+        y: -107.6721
+        z: 0
+      id: registed_0_262963000000
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_12_1636797648063733875
+      position:
+        x: -54.76759
+        y: -108.2504
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_1636797340003263604
+      position:
+        x: -114.6717
+        y: -155.7152
+        z: -0.0006332397
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_1_1636797347955773082
+      position:
+        x: -129.3725
+        y: -136.8015
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_6_1636797482123906911
+      position:
+        x: -88.7791
+        y: -99.32477
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_4_1636797460424586886
+      position:
+        x: -113.1642
+        y: -117.2857
+        z: -0.005023956
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_3_1636792084902235755
+      position:
+        x: -112.0859
+        y: 4.27211
+        z: 7.629395e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_10_1636797549532615462
+      position:
+        x: -142.3543
+        y: -50.36504
+        z: 3.814697e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_7_1636797497065281530
+      position:
+        x: -123.2991
+        y: -73.20273
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_8_1636797528576265001
+      position:
+        x: -146.5614
+        y: -73.54292
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_9_1636797540299766110
+      position:
+        x: -158.7554
+        y: -66.91182
+        z: -1.907349e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_0_1636707304775412841
+      position:
+        x: -30.74831
+        y: 20.93166
+        z: 0
+      euler_angles:
+        x: 8.742278e-08
+        y: 1.509958e-07
+        z: 2.679826
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_11_1636797635018656879
+      position:
+        x: -73.90823
+        y: -98.50024
+        z: 7.629395e-06
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
+    - id: registed_13_1636797683380082652
+      position:
+        x: -39.08847
+        y: -107.981
+        z: 0
+      euler_angles:
+        x: -0
+        y: 0
+        z: -0
+      properties:
+        - key: stop
+          value: ""
