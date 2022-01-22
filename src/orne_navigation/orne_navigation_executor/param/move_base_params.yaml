@@ -1,0 +1,36 @@
+# Move base node parameters. For full documentation of the parameters in this file, please see
+#
+#  http://www.ros.org/wiki/move_base
+#
+shutdown_costmaps: false
+recovery_behavior_enabled: true
+clearng_rotation_allowed: false
+controller_frequency: 4.0 #5.0
+controller_patience: 10.0
+
+planner_frequency: 0.1 #0.1
+planner_patience: 5.0 
+
+
+oscillation_timeout: 10.0
+oscillation_distance: 0.2
+
+base_global_planner: global_planner/GlobalPlanner
+#base_local_planner: dwa_local_planner/DWAPlannerROS
+
+GlobalPlanner:
+  allow_unknown: false
+  default_tolerance: 5
+  planner_window_x: 0
+  planner_window_y: 0
+  orientation_window_size: 2
+  use_dijkstra: true
+  use_quadratic: true
+  use_grid_path: false
+  old_navfn_behavior: false
+  orientation_mode: 2
+  lethal_cost: 253 #128
+  cost_factor: 3 #0.6
+  neutral_cost: 55.0
+  visualize_potential: false
+  publish_potential: false

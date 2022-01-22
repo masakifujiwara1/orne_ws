@@ -1,0 +1,7 @@
+# initial pose config
+initial_pose_x: 188.784170292 #-12.0493793488 #521.861694336 # 493.71 #<-after_city  #521.43953552
+initial_pose_y: -43.3054608443 #43.269744873 #27.5539016724  # -0.105 #<-after_city  #23.701486206
+initial_pose_a: 0.100  #0.077 # -2.823 #<-after_city  #0.077152333681588794
+initial_cov_xx: 0.065
+initial_cov_yy: 0.065
+initial_cov_aa: 0.065

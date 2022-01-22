@@ -1,0 +1,23 @@
+suspend_pose:
+    - pose:
+        line_tracking: 0
+        position:
+          x: -26.5636
+          y: 17.8126
+          z: 0.00701253
+        orientation:
+          x: 0.000101617
+          y: -5.99205e-05
+          z: 0.954983
+          w: 0.296735
+resume_pose:
+    - pose:
+        position:
+          x: -34.3231
+          y: 23.5021
+          z: 0.00348949
+        orientation:
+          x: 0.000145408
+          y: -3.92713e-05
+          z: 0.929868
+          w: 0.367922
