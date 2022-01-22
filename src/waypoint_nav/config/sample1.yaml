@@ -1,0 +1,22 @@
+waypoints:
+    - point:
+        x: -1.45248
+        y: 1.74615
+        z: 0.00396367
+        function: run
+    - point:
+        x: 14.5404
+        y: 14.4173
+        z: 0.00396367
+        function: run
+    - point:
+        x: 23.6014
+        y: 21.2881
+        z: 0.00340227
+        function: suspend
+    - point:
+        x: 24.1502
+        y: 22.9339
+        z: 0.00321551
+        function: suspend
+

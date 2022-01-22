@@ -1,0 +1,21 @@
+<launch>
+  <arg name="waypoints_file" default="$(find nav_cloning)/maps/cross_road_way_cmd.yaml"/>
+  <node name="waypoint_navigator" pkg="waypoint_nav" type="waypoint_navigator" output="screen" >
+    <remap from="cmd_vel" to="icart_mini/cmd_vel" />
+
+    <param name="robot_frame" value="base_link"/>
+    <param name="world_frame" value="map"/>
+    <param name="max_update_rate" value="1.0"/>
+    <!--param name="filename" value="$(find waypoint_nav)/config/sample1.yaml"/-->
+    <param name="filename" value="$(arg waypoints_file)"/>
+
+    <param name="dist_err" value="1.0"/>
+    <param name="loop_flg" value="true"/>
+    <param name="wait_time" value="30.0"/>
+    <param name="resend_thresh" value="3"/>
+  </node>
+
+  <node name="pub_initpose" pkg="switching_by_etc" type="pub_initpose" output="screen" >
+  </node>
+
+</launch>
