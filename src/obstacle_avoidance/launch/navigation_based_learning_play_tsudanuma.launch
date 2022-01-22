@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+	
+	<node pkg="obstacle_avoidance" type="navigation_based_learning_switch.py" name="navigation_based_learning_node" output="screen"/>
+	<!--node pkg="obstacle_avoidance" type="navigation_based_learning_only.py" name="navigation_based_learning_node" output="screen"/-->
+
+
+	<!--node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+		args="5 orne_navigation_executor play_waypoints_nav_alpha_func.launch map_file:=/home/orne_box/maps/cit3f/1007a waypoints_file:=/home/orne_box/maps/cit3f/cit3F_func.yaml"
+	name="timed_roslaunch" /-->
+    <!--node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+		args="5 orne_navigation_executor play_waypoints_nav_alpha.launch map_file:=/home/orne_box/maps/Tsudanuma_map/Tsudanuma_re"
+	name="timed_roslaunch" /-->
+ 	<!-- node pkg="timed_roslaunch" type="timed_roslaunch.sh"		args="5 orne_navigation_executor play_waypoints_nav_alpha_func.launch map_file:=/home/orne_box/maps/Tsudanuma_map/map waypoints_file:=/home/orne_box/maps/Tsudanuma_map/map_waypoint.yaml"
+	name="timed_roslaunch" /-->
+    <!--node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+		args="5 orne_navigation_executor play_waypoints_nav_alpha.launch map_file:=/home/orne_box/maps/Tsudanuma_map/Tsudanuma_cora waypoints_file:=/home/orne_box/maps/Tsudanuma_map/Tsudanuma_cora_way.yaml" -->
+    
+  <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+		args="5 orne_navigation_executor play_waypoints_nav_alpha.launch map_file:=/home/orne_box/maps/Tsudanuma_map/map"
+	name="timed_roslaunch" />
+
+</launch>

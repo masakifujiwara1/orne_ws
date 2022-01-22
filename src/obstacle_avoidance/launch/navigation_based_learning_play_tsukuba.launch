@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	
+	<node pkg="obstacle_avoidance" type="navigation_based_learning_switch.py" name="navigation_based_learning_node" output="screen"/>
+
+ 	<node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+        	args="5 orne_navigation_executor play_waypoints_nav_alpha.launch map_file:=/home/orne_box/maps/Tsukuba_map/Tsukuba"
+	name="timed_roslaunch" />
+
+</launch>

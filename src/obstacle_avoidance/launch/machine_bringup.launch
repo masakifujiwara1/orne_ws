@@ -1,0 +1,14 @@
+<launch>
+
+    <include file="$(find orne_bringup)/launch/orne_alpha.launch">
+    </include>
+
+    <include file="$(find obstacle_avoidance)/launch/camera_multi_light.launch">
+    </include>
+
+    <!--include file="$(find twist_mux)/launch/twist_mux.launch">
+    </include>
+
+    <include file="$(find waypoint_server)/launch/waypoint_server.launch">
+    </include-->
+</launch>

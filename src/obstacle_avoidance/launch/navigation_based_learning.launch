@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="obstacle_avoidance" type="navigation_based_learning_select.py" name="navigation_based_learning_node" output="screen"/>
+</launch>
